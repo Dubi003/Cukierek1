@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piekarnia Cukierek</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fff7f0;
+      color: #333;
+    }
+    header {
+      background: #ffb6c1;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background: #ffa6b6;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 60px;
+      text-align: center;
+      background: #ffe3ea;
+    }
+    .hero h2 {
+      font-size: 2rem;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    footer {
+      background: #ffb6c1;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Piekarnia "Cukierek"</h1>
+    <p>Najświeższe wypieki w Twojej okolicy</p>
+  </header>
+
+  <nav>
+    <a href="#o-nas">O nas</a>
+    <a href="#oferta">Oferta</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Codziennie świeże pieczywo, ciasta i słodkości</h2>
+    <p>Zapraszamy od poniedziałku do niedzieli!</p>
+  </div>
+
+  <section id="o-nas" class="section">
+    <h2>O nas</h2>
+    <p>Piekarnia "Cukierek" to rodzinna firma, która od lat wypieka tradycyjne pieczywo
+    oraz wyjątkowe słodkości z najwyższej jakości składników. Naszą misją jest dostarczanie
+    produktów, które smakują jak domowe wypieki naszych babć.</p>
+  </section>
+
+  <section id="oferta" class="section">
+    <h2>Nasza oferta</h2>
+    <div class="products">
+      <div class="product">
+        <h3>Chleb wiejski</h3>
+        <p>Wypiekany na naturalnym zakwasie, chrupiący i aromatyczny.</p>
+      </div>
+      <div class="product">
+        <h3>Bułeczki maślane</h3>
+        <p>Puszyste, delikatne i idealne na śniadanie.</p>
+      </div>
+      <div class="product">
+        <h3>Ciasto czekoladowe</h3>
+        <p>Mocno czekoladowe, intensywne i rozpływające się w ustach.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt" class="section">
+    <h2>Kontakt</h2>
+    <p><strong>Adres:</strong> ul. Słodka 12, 00-000 Warszawa</p>
+    <p><strong>Telefon:</strong> 123 456 789</p>
+    <p><strong>Email:</strong> kontakt@cukierek.pl</p>
+  </section>
+
+  <footer>
+    © 2025 Piekarnia "Cukierek" – Wszystkie prawa zastrzeżone
+  </footer>
+</body>
+</html>
